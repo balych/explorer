@@ -1,18 +1,15 @@
 Iquidus Explorer - 1.6.1
 ================
 
-An open source block explorer written in node.js.
+An open source block explorer written in node.js with default settings for ZettelKasten.
+
+https://bitcointalk.org/index.php?topic=3207356.0
+
+https://zetteltalk.org
 
 ### See it in action
 
-*  [Jumbucks](http://explorer.getjumbucks.com)
-*  [Sphere](http://sphere.iquidus.io)
-*  [SAR](http://explorer.sarcoin.info)
-*  [Vanillacoin](https://blockchain.vanillacoin.net/)
-*  [Neoscoin](http://explorer.infernopool.com/)  
-*  [C2Chain](http://c2chain.info/)
-
-*note: If you would like your instance mentioned here contact me*
+*  [ZettelKasten](http://zettel.dashnetwok.info)
 
 ### Requires
 
@@ -40,7 +37,7 @@ Create user with read/write access:
 
 ### Get the source
 
-    git clone https://github.com/iquidus/explorer explorer
+    git clone https://github.com/balych/explorer explorer
 
 ### Install node modules
 

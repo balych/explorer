@@ -5,15 +5,15 @@
 */
 {
   // name your instance!
-  "title": "IQUIDUS",
+  "title": "ZettelKasten Block Explorer",
 
-  "address": "127.0.0.1:3001",
+  "address": "example.com",
 
   // coin name
-  "coin": "Darkcoin",
+  "coin": "ZettelKasten",
 
   // coin symbol
-  "symbol": "DRK",
+  "symbol": "ZETTEL",
 
   // logo
   "logo": "/images/logo.png",
@@ -26,10 +26,10 @@
   //     Cerulean, Cosmo, Cyborg, Darkly, Flatly, Journal, Lumen, Paper,
   //     Readable, Sandstone, Simplex, Slate, Spacelab, Superhero, United, Yeti
   // theme (see /public/themes for available themes)
-  "theme": "Cyborg",
+  "theme": "Cosmo",
 
   // port to listen for requests on.
-  "port" : 3001,
+  "port" : 80,
 
   // database settings (MongoDB)
   "dbsettings": {
@@ -47,23 +47,23 @@
   // wallet settings
   "wallet": {
     "host": "localhost",
-    "port": 9332,
-    "user": "darkcoinrpc",
+    "port": 51338,
+    "user": "zettelrpc",
     "pass": "123gfjk3R3pCCVjHtbRde2s5kzdf233sa"
   },
 
   // confirmations
-  "confirmations": 40,
+  "confirmations": 120,
 
   // language settings
   "locale": "locale/en.json",
 
   // menu settings
   "display": {
-    "api": true,
-    "markets": true,
+    "api": false,
+    "markets": false,
     "richlist": true,
-    "twitter": true,
+    "twitter": false,
     "facebook": false,
     "googleplus": false,
     "search": true,
@@ -120,8 +120,8 @@
   "googleplus": "yourgooglepluspage",
 
   //genesis
-  "genesis_tx": "65f705d2f385dc85763a317b3ec000063003d6b039546af5d8195a5ec27ae410",
-  "genesis_block": "b2926a56ca64e0cd2430347e383f63ad7092f406088b9b86d6d68c2a34baef51",
+  "genesis_tx": "bf694401262628ef1287de24b474cff445c7e947d13ea3d90aa96682c5315e6b",
+  "genesis_block": "1560797ff6d9f68274073b44bb7bc7091d02b0dc6d2f8c82b592bc96a065a6e0",
 
   //heavy (enable/disable additional heavy features)
   "heavy": false,
@@ -138,7 +138,7 @@
   // HEAVY: retreive from heavys getsupply api call
   // BALANCES : total of all address balances
   // TXOUTSET : retreive from gettxoutsetinfo api call
-  "supply": "COINBASE",
+  "supply": "GETINFO",
 
   // how to acquire network hashrate
   // getnetworkhashps: uses getnetworkhashps api call, returns in GH/s
@@ -157,5 +157,6 @@
   "labels": {
   //  "JSoEdU717hvz8KQVq2HfcqV9A79Wihzusu": {"label": "Developers address", "type":"primary", "url":"http://example.com"},
   //  "JSWVXHWeYNknPdG9uDrcBoZHztKMFCsndw": {"label": "Cryptsy"}
+  "ZetterxMoFb2crhpMgRCHkivyrbapnQpzJ": {"label": "Donations for development", "type":"default"}
   }
 }
