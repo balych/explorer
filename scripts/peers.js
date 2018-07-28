@@ -17,6 +17,17 @@ dbString = dbString + '@' + settings.dbsettings.address;
 dbString = dbString + ':' + settings.dbsettings.port;
 dbString = dbString + '/' + settings.dbsettings.database;
 
+function trim(s, mask) {
+    while (~mask.indexOf(s[0])) {
+        s = s.slice(1);
+    }
+    while (~mask.indexOf(s[s.length - 1])) {
+        s = s.slice(0, -1);
+    }
+    return s;
+}
+
+
 mongoose.connect(dbString, function(err) {
   if (err) {
     console.log('Unable to connect to database: %s', dbString);
