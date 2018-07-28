@@ -9,7 +9,7 @@ https://zetteltalk.org
 
 ### See it in action
 
-*  [ZettelKasten](http://zettel.dashnetwok.info)
+*  [ZettelKasten](http://zettel.dashnetwork.info)
 
 ### Requires
 
